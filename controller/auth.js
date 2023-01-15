@@ -58,7 +58,7 @@ exports.logout = asyncHandler(async (req, res, next) => {
 
 // Desc     //get current logged user
 // Access   //Private
-// PATH     /auth/me
+// PATH     /auth/me/:id
 exports.getMe = asyncHandler(async (req, res, next) => {
   const user = await User.findById(req.user.id);
   res.status(200).json({
@@ -76,11 +76,11 @@ const sendTokenResponse = (user, statudsCode, res) => {
     maxAge: 2 * 60 * 60 * 1000,
     httpOnly: true,
   };
-  const { firstName, lastName, hobbies, gender, role, email } = user;
+  const { firstName, lastName, hobbies, gender, role, email, _id } = user;
 
   res.status(statudsCode).cookie("token", token, options).json({
     success: true,
     token,
-    result: { firstName, lastName, hobbies, gender, role, email },
+    result: { firstName, lastName, hobbies, gender, role, email, _id },
   });
 };

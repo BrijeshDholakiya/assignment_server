@@ -1,0 +1,56 @@
+[
+    {
+        "_id": "640712cdae549174c964e07e",
+        "firstName": "Brijesh",
+        "lastName": "Dignizant",
+        "gender": "male",
+        "hobbies": "Cricket, Chess",
+        "email": "brijeshdholakiya@dignizant.com",
+        "role": "manager"
+    },
+    {
+        "_id": "6409882033e4300650547303",
+        "firstName": "John",
+        "lastName": "Doe",
+        "gender": "male",
+        "hobbies": "Singing, Movies",
+        "email": "johndoe@yopmail.com",
+        "role": "employee"
+    },
+    {
+        "firstName": "Kevin",
+        "lastName": "Smith",
+        "hobbies": "Dancing, Movies",
+        "gender": "male",
+        "role": "employee",
+        "email": "kevinsmith@yopmail.com",
+        "_id": "6409c1fbf1df2e75f02e8947"
+    },
+    {
+        "_id": "6409c1fbf1df2e75f02e8947",
+        "firstName": "Gabriella",
+        "lastName": "Christopher",
+        "gender": "female",
+        "hobbies": "Dancing, Movies, Travelling",
+        "email": "gabriella235@gmail.com",
+        "role": "employee"
+    },
+    {
+        "_id": "6409c1fbf1df2e75f02e8947",
+        "firstName": "Angela",
+        "lastName": "Yu",
+        "gender": "female",
+        "hobbies": "Teaching, Reading, Travelling",
+        "email": "angela235@gmail.com",
+        "role": "employee"
+    },
+    {
+        "_id": "6409c1fbf1df2e75f02e8947",
+        "firstName": "Maximillian",
+        "lastName": "Schwarzmuller",
+        "gender": "male",
+        "hobbies": "Teaching, Reading",
+        "email": "maxi235@gmail.com",
+        "role": "employee"
+    }
+]

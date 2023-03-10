@@ -1,0 +1,35 @@
+[
+    {
+        "_id": "6409bfc5075fccab7f9af1eb",
+        "departmentName": "wallmart",
+        "categoryName": "HR",
+        "location": "Delhi",
+        "salary": 34500,
+        "createdAt": "2023-03-09T11:15:17.529Z",
+        "__v": 0,
+        "users": [],
+        "id": "6409bfc5075fccab7f9af1eb"
+    },
+    {
+        "_id": "64096a2b2857d4fdf8e80637",
+        "departmentName": "Application Development",
+        "categoryName": "Flutter",
+        "location": "Ahmedabad",
+        "salary": 14500,
+        "createdAt": "2023-03-09T05:10:03.401Z",
+        "__v": 0,
+        "users": [],
+        "id": "64096a2b2857d4fdf8e80637"
+    },
+    {
+        "_id": "6407157aae549174c964e086",
+        "departmentName": "Web Development",
+        "categoryName": "Front End Development",
+        "location": "Surat",
+        "salary": 10000,
+        "createdAt": "2023-03-07T10:44:10.825Z",
+        "__v": 0,
+        "users": [],
+        "id": "6407157aae549174c964e086"
+    }
+]

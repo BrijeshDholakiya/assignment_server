@@ -5,7 +5,7 @@ const User = require("../models/User");
 //post //register user //public // api/v1/auth/register
 exports.register = asyncHandler(async (req, res, next) => {
   const { firstName, lastName, hobbies, gender, email, password, role } =
-    req.body;
+    req.body || {};
 
   //create user
   const user = await User.create({
@@ -31,7 +31,9 @@ exports.login = asyncHandler(async (req, res, next) => {
   }
 
   //check for user
-  const user = await User.findOne({ email }).select("+password");
+  const user = await User.findOne({ email })
+    .select("+password")
+    .populate("department");
   if (!user) {
     return next(new ErrorResponse("Invalid Credentials", 401));
   }

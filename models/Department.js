@@ -33,11 +33,11 @@ const DepartmentSchema = new mongoose.Schema(
   }
 );
 
-//reverse populate with virtual
+//For reverse populate with virtual
 DepartmentSchema.virtual("users", {
   ref: "User",
   localField: "_id",
-  foreignField: "firstName",
+  foreignField: "department",
   justOne: false,
 });
 

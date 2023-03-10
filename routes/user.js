@@ -6,7 +6,7 @@ const { protect, authorize } = require("../middleware/auth");
 // const advancedResults = require("../middleware/advancedResult");
 
 router.use(protect);
-router.use(authorize("manager"));
+router.use(authorize("manager", "employee"));
 
 const { getUsers } = require("../controller/user");
 

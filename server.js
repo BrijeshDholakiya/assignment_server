@@ -14,6 +14,7 @@ const cors = require("cors");
 const errorHandler = require("./middleware/error");
 const connectDB = require("./config/db");
 
+// BD
 //Load env vars
 dotenv.config({ path: "./config/config.env" });
 
